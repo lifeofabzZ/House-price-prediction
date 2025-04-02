@@ -102,6 +102,7 @@
 <body>
     <div class="container">
         <h2>Enter House Details</h2>
+        <h3><a href="{{ url_for('profile') }}">My Profile</a></h3>
         <form action="/predict" method="post">
             <label for="area">Area (sq. ft.): 
                 <input type="number" id="area" name="area" required>
